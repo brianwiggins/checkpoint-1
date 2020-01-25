@@ -1,0 +1,43 @@
+/**{
+  outline:solid;
+}*/
+.container-fluid{
+  position:relative;
+}
+.transparent{
+outline:none;
+border:none;
+background-color:rgba(0,0,0,0.0);
+color:black;
+
+}
+
+.make-cool{
+  background:radial-gradient(circle, rgba(1,1,1,1) 0%,
+   rgba(50,50,50,1) 60%, rgba(255,255,255,1) 96%);
+  outline:black;
+  color:white;
+  text-align:center;
+}
+.btn-small{
+  margin-top:80%
+}
+.navbar-brand{
+  padding-top:1%;
+  padding-bottom:1%;
+}
+.wrapped{
+  display:flex;
+  flex-wrap:wrap;
+}
+.gradient{
+  background: rgb(2,0,36);
+background: linear-gradient(-45deg,rgba(2,0,36,1) 0%, rgba(9,84,121,1) 22%, rgba(0,212,255,1) 96%);
+}
+@media screen and (min-width:780px){
+  .p-offset{
+    justify-content:center;
+    align-content:center;
+  }
+}
+  
