@@ -1,6 +1,4 @@
-/**{
-  outline:solid;
-}*/
+
 .container-fluid{
   position:relative;
 }
@@ -15,9 +13,13 @@ color:black;
 .make-cool{
   background:radial-gradient(circle, rgba(1,1,1,1) 0%,
    rgba(50,50,50,1) 60%, rgba(255,255,255,1) 96%);
-  outline:black;
+  outline:none;
   color:white;
   text-align:center;
+  border-radius:10%;
+}
+.make-more-cool{
+  background:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(50,50,50,1) 60% ,rgba(1,1,1,1) 96%);
 }
 .btn-small{
   margin-top:80%
@@ -34,10 +36,66 @@ color:black;
   background: rgb(2,0,36);
 background: linear-gradient(-45deg,rgba(2,0,36,1) 0%, rgba(9,84,121,1) 22%, rgba(0,212,255,1) 96%);
 }
-@media screen and (min-width:780px){
-  .p-offset{
-    justify-content:center;
-    align-content:center;
+@media only screen and (max-width:780px){
+  .weirdcolumn{
+display:flex;
+justify-content: center;
+height:60vh !important;
+margin-bottom:10vh !important;
   }
+  .weirdcard{
+    width:50%;
+    margin-top:0;
+    padding-top:0;
+    top:50%;
+  }
+  .sometimes{
+    padding:0;
+  }
+  .push-right{
+    justify-content:center !important;
+  }
+  .push-left{
+    justify-content:center !important;
+  }
+  
 }
+.sometimes{
+  height:25vh;
+  padding-bottom:1vh;
+}
+.padding1{
+height:25vh;
+}
+.padding2{
+  height:25vh;
+  border-bottom:10px solid black;
+  width:100vw;
+}
+#cardrow{
+  background-color:black;
+
+}
+.weirdcolumn{
+position:relative;
+height:85vh;
+}
+.weirdcard{
+position:absolute;
+outline:none;
+top:20vh;
+}
+.weirdbutton{
+  position:absolute;
+  width:50%;
+  left:25%;
+}
+.make-round{
+border-radius:50%;
+}
+.logo{
+  width:100px;
+  height:100px;
+}
+
   
